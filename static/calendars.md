@@ -18,14 +18,11 @@
 
 ## Return Data(json)
 
-    [
-        {
-          "img": "http://muxistatic.com",    // 图片七牛外链
-          "size": "高x宽", # x 是一个 爱克斯
-          'update': 时间戳                   // 图片更新时间戳
-        },
-        {....}
-    ]
+    {
+        "img": "http://muxistatic.com",    // 图片七牛外链
+        "size": "高x宽", # x 是一个 爱克斯
+        'update': 时间戳                   // 图片更新时间戳
+    },
 
 ## Status Code
 
