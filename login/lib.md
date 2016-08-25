@@ -1,10 +1,10 @@
-# 信息门户登录API
+# 图书馆登录API
 
 > 对应应用首页的登录
 
 | URL | Header |  Method |
 | ------------- |:-------------:| -----:|
-| /api/info/login/ | 信息门户登录header | GET |
+| /api/lib/login/ | 图书馆登录header | GET |
 
 <hr/>
 
