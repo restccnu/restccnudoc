@@ -12,16 +12,16 @@
 
     无
 
-### POST data(json)
+### POST Data(json)
 
     无
 
-### Return data(json)
+### Return Data(json)
 
     {}
 
 
-### status code:
+### Status Code:
 
     200 OK
     403 禁止访问, 用户验证出错
