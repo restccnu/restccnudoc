@@ -4,7 +4,7 @@
 
 | version |  author | status |
 | ------------- |:-------------:| -----:|
-|  v1     | [@neo1218](https://github.com/neo1218) [@kasheemlew](https://github.com/kasheemlew) | unbuild |
+|  v1.0.3     | [@neo1218](https://github.com/neo1218) [@kasheemlew](https://github.com/kasheemlew) | unbuild |
 
 <hr/>
 
@@ -34,3 +34,8 @@ url 参数
 
 ## Notes
 注意
+
+## Change Logs
+
++ v1.0.3: 添加信息门户课程删除API
+

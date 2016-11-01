@@ -8,6 +8,12 @@
 
 <hr/>
 
+## 关于id
+
++ id > 0: 用户自定义课程
++ id = 0: mongodb占位课程
++ id < 0: 信息门户课程
+
 ## URL Params
 
     无
