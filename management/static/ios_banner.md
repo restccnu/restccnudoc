@@ -1,10 +1,10 @@
-# Banner获取API
+# Banner获取API (IOS版)
 
 > 获取banner
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/banner/ | 无 | GET |
+| /api/ios/banner/ | 无 | GET |
 
 <hr/>
 
@@ -42,7 +42,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/banner/ | 管理员登录header | POST |
+| /api/ios/banner/ | 管理员登录header | POST |
 
 <hr/>
 
@@ -78,7 +78,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/banner/ | 管理员登录header | DELETE |
+| /api/ios/banner/ | 管理员登录header | DELETE |
 
 <hr/>
 
