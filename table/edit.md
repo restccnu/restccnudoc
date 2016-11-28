@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/table/<id>/ | 信息门户登录header | PUT |
+| ```/api/table/<id>/``` | 信息门户登录header | PUT |
 
 <hr/>
 
