@@ -21,8 +21,9 @@
     [
         {
           "img": "http://muxistatic.com",  // 图片七牛外链
-          "url": "http://muxistudio.com"   // 图片指向链接
-          'update': 时间戳                 // 图片更新时间戳
+          "url": "http://muxistudio.com",  // 图片指向链接
+          "num": "1"                       // Banner排序的数字(越小越先出现)
+          "update": 时间戳                 // 图片更新时间戳
         },
         {....}
     ]

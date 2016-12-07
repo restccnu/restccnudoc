@@ -23,6 +23,7 @@
           "img": "http://muxistatic.com",  // 图片七牛外链
           "url": "http://muxistudio.com"   // 图片指向链接
           'update': 时间戳                 // 图片更新时间戳
+          "num": "1"                       // Banner排序的数字, 越小越先出现
         },
         {....}
     ]
@@ -53,8 +54,9 @@
 ## POST Data(json)
 
     {
-        'img': 'banner上传到七牛后的文件名(若有后缀包括后缀)',
-        'url': 'banner指向的链接'
+        "img": 'banner上传到七牛后的文件名(若有后缀包括后缀)',
+        "url": 'banner指向的链接'
+        "num": "banner排序的数字, 越小越先出现(最小为1)"
     }
 
 ## Return Data(json)
