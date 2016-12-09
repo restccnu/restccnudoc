@@ -13,7 +13,8 @@
 ## POST Data(json)
 
     {
-        "unique_id": "ios unique id"
+        "unique_id": "ios unique id",
+        "sid": "2014210761"  #  学号, 可选
     }
 
 ## Return Data(json)
