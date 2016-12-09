@@ -4,7 +4,7 @@
 
 | URL | Header | Method |
 | ------ | :------- | :------ |
-| /api/feedbacks/ | 管理员header | POST |
+| /api/feedbacks/ | 管理员header | GET |
 
 ## URL Params
 
