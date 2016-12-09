@@ -1,10 +1,10 @@
-# IOS推送API
+# IOS用户反馈API
 
-> 推送API
+> 发送反馈到管理后台
 
 | URL | Header | Method |
 | ------ | :------- | :------ |
-| /api/push/ | 管理员header | POST |
+| /api/feedback/ | 无 | POST |
 
 ## URL Params
 
@@ -13,18 +13,13 @@
 ## POST Data(json)
 
     {
-        "title": "xxxx",
-        "userinfo": {}
+        "contact": "13007149711", # 联系方式
+        "feedback": "反馈内容"
     }
 
 ## Return Data(json)
 
-    无:
-
-    如果出错返回错误的设备token和相应信息
-    {
-        error_token: error_message
-    }
+    {}
 
 ## Status Code
 
