@@ -104,3 +104,37 @@
     502 服务器端异常
 
 ## Notes
+
+# 更新banner API
+
+> 更新banner排序
+
+| URL |  Header | Method |
+| ------------- |:-------------:| -----:|
+| /api/ios/banner/ | 管理员header | PUT |
+
+<hr/>
+
+## URL Params
+
+    无
+
+## PUT Data(json)
+
+    {
+        "img": "http://muxistatic.com",    // 待修改图片的七牛外链
+        "num": 1                           // 更新后的排序num
+    }
+
+## Return Data(json)
+
+    {}, 200
+
+## Status Code
+
+    200 OK
+    404 待修改的banner不存在
+    502 服务器端异常
+
+## Notes
+
