@@ -18,7 +18,7 @@
     
 ## Return Data(json)
 
-    {"config": "{'k1':'v1', 'k2':'v2'}"}    # ios json配置
+    {"config": {'k1':'v1', 'k2':'v2'}}    # ios json配置
     
 ## Status Code
 
