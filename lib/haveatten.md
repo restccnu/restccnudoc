@@ -1,10 +1,10 @@
-# 关注图书API
+# 图书可借API
 
-> 关注图书
+> 图书可借
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-|  /api/lib/attention/ | 图书馆登录header | POST |
+|  /api/lib/haveattention/ | 图书馆登录header | GET |
 
 <hr/>
 
@@ -14,9 +14,7 @@
 
 ## POST Data(json)
 
-    {
-        "book_name": 图书名字,
-    }
+    无
 
 ## Return Data(json)
 

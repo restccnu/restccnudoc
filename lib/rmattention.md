@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-|  /api/lib/rmattention/ | 图书馆登录header | POST |
+|  /api/lib/rmattention/ | 图书馆登录header | DELETE |
 
 <hr/>
 
@@ -15,7 +15,7 @@
 ## POST Data(json)
 
     {
-        "bar_code": 图书编号
+        "book_name": 图书名字
     }
 
 ## Return Data(json)
