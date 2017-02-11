@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-|  /api/lib/haveattention/ | 图书馆登录header | GET |
+|  /api/lib/get_atten/ | 图书馆登录header | GET |
 
 <hr/>
 
@@ -18,12 +18,15 @@
 
 ## Return Data(json)
 
-    {}
+    {
+        'book_list': ["平凡的世界", "计算机网络"]
+    }
 
 ## Status Code
 
-    201 OK
+    200 OK
     403 禁止访问
-    409 已关注
+    404 无关注图书或关注图书均不可借
+    502 服务器端错误
 
 ## Notes

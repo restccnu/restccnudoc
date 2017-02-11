@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-|  /api/lib/attention/ | 图书馆登录header | POST |
+|  /api/lib/create_atten/ | 图书馆登录header | POST |
 
 <hr/>
 
@@ -24,8 +24,9 @@
 
 ## Status Code
 
-    201 OK
+    201 添加关注成功
     403 禁止访问
     409 已关注
+    502 服务器端错误
 
 ## Notes

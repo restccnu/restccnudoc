@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-|  /api/lib/rmattention/ | 图书馆登录header | DELETE |
+|  /api/lib/del_atten/ | 图书馆登录header | DELETE |
 
 <hr/>
 
@@ -24,8 +24,9 @@
 
 ## Status Code
 
-    201 OK
+    200 OK
     403 禁止访问
     404 未找到图书
+    502 服务器端错误
 
 ## Notes
