@@ -15,7 +15,7 @@
 ## POST Data(json)
 
     {
-        "book_name": 图书名字
+        "id": "xxxx" // 图书的id
     }
 
 ## Return Data(json)

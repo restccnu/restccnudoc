@@ -15,7 +15,10 @@
 ## POST Data(json)
 
     {
-        "book_name": 图书名字,
+        "bid": 图书的bid,
+        "book": 图书名字,
+        "id": 图书的id,
+        "author": 图书的作者
     }
 
 ## Return Data(json)

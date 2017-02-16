@@ -19,7 +19,25 @@
 ## Return Data(json)
 
     {
-        'book_list': ["平凡的世界", "计算机网络"]
+        "all_list": [ // 所有关注的图书
+            {
+            "bid": "xxxx", // 图书的bid
+            "book": "xxxx", // 图书的名字
+            "id": , "xxxx", // 图书的id
+            "author":  "xxxx" // 图书的作者
+            },
+            { ... }
+        ],
+
+        "available_list": [ // 可借的图书
+            {
+            "bid": "xxxx", // 图书的bid
+            "book": "xxxx", // 图书的名字
+            "id": , "xxxx", // 图书的id
+            "author": "xxxx" // 图书的作者
+            },
+            { ... }
+        ]
     }
 
 ## Status Code
