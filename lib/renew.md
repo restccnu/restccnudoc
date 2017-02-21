@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/lib/renew/ | 无 | GET |
+| /api/lib/renew/ | 无 | POST |
 
 <hr/>
 
