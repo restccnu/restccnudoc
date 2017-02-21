@@ -4,16 +4,13 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/lib/?id=xxxx&book=xxxx&author=xxxx&bid=xxxx | 无 | GET |
+| /api/lib/?id=xxxx | 无 | GET |
 
 <hr/>
 
 ## URL Params
 
     id: 图书的id(可从图书搜索API中获取)
-    book: 图书的名字
-    author: 图书的作者
-    bid: 图书索书号
 
 ## POST Data(json)
 
