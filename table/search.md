@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/table/ | 信息门户登录header | GET |
+| /api/table/ | 信息门户登录cookie | GET |
 
 <hr/>
 
@@ -14,7 +14,13 @@
 
 ## POST Data(json)
 
-    无
+    {
+        "cookie": {
+            "BIGipServerpool_jwc_xk": "407939264.20480.0000", 
+            "JSESSIONID": "26A06E720057BEABF52AF32F616B9644"
+        },
+        "sid": "2014210761",
+    }
 
 ## Return Data(json)
 
