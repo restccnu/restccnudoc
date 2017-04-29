@@ -4,9 +4,16 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/table/id/ | 信息门户登录cookie | DELETE |
+| /api/table/id/ | 信息门户登录header | DELETE |
 
 <hr/>
+
+## Headers
+信息门户登录headers(注意大小写)
+
+    'Bigipserverpool_Jwc_Xk':'139503808.20480.0000'
+    'Sid':'2014210761'
+    'Jsessionid': 'B6A6DF5C48AB4AD4C4001572D2611809'
 
 ## URL Params
 
@@ -14,13 +21,7 @@
 
 ## POST Data(json)
 
-    {
-        "cookie": {
-            "BIGipServerpool_jwc_xk": "407939264.20480.0000", 
-            "JSESSIONID": "26A06E720057BEABF52AF32F616B9644"
-        },
-        "sid": "2014210761",
-    }
+    无
 
 ## Return Data(json)
 
@@ -31,5 +32,7 @@
     200 ok
     403 禁止访问
     502 服务器端异常
+    401 未授权
+    404 待删除课程不存在
 
 ## Notes

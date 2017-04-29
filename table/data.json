@@ -1,0 +1,10 @@
+{
+        "course": "xxxx",
+        "teacher": "xxxx",
+        "weeks": "1, 2, 3",
+        "day": "1",
+        "start": "3",
+        "during": "2",
+        "place": "9-21",
+        "remind": false
+}
