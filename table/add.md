@@ -4,9 +4,17 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/table/ | 信息门户登录header | POST |
+| /api/table/ | 信息门户登录header | GET |
 
 <hr/>
+
+## Headers
+信息门户登录headers(注意大小写)
+
+    'Bigipserverpool_Jwc_Xk':'139503808.20480.0000'
+    'Sid':'2014210761'
+    'Jsessionid': 'B6A6DF5C48AB4AD4C4001572D2611809'
+    'Authorization': "Basic Base64(sid:pwd)"
 
 ## URL Params
 
@@ -15,7 +23,6 @@
 ## POST Data(json)
 
     {
-        "id": "1", // (需要是字符串, 课程的id)
         "course": "xxxx",  // 课程的名称
         "teacher": "xxxx",  // 老师的名称
         "weeks": "1, 2, 3,,,,,19",  // 上课周次
@@ -28,15 +35,13 @@
 
 ## Return Data(json)
 
-    无
+    {"id": id} // 自定义课程存储ID
 
 ## Status Code
 
     201: 创建成功
     403: 禁止访问
     502: 服务器端异常
+    401: 未授权
 
 ## Notes
-
-    由于mongodb的特性: 数据存在才会创建数据库, 所以内含id为0的占位课程(re:0)
-

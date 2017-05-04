@@ -8,6 +8,14 @@
 
 <hr/>
 
+## Headers
+信息门户登录headers(注意大小写)
+
+    'Bigipserverpool_Jwc_Xk':'139503808.20480.0000'
+    'Sid':'2014210761'
+    'Jsessionid': 'B6A6DF5C48AB4AD4C4001572D2611809'
+    'Authorization': "Basic Base64(sid:pwd)"
+
 ## URL Params
 
     无
@@ -39,5 +47,6 @@
     200 Ok
     403 禁止访问
     502 服务器端异常
+    401 未授权
 
 ## Notes
