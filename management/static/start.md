@@ -19,7 +19,7 @@
 ## Return Data(json)
 
     {
-        "img": "http:xxxxxxxxx",  // 图片七牛url
+        "img": "http:xxxxxxxxx",  // 闪屏图片外链
         "url": "xxxxxxxxxxxxxx",  // 图片指向链接
         "update": timestamp       // 图片更新时间戳
     }
@@ -50,7 +50,7 @@
 ## POST Data(json)
 
     {
-        "img": "闪屏上传到七牛后的文件名",
+        "img": "闪屏图片外链",
         "url": "闪屏指向的链接"
     }
 
