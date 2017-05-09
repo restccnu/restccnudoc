@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/grade/search/?xnm=2015&xqm=3 | 信息门户登录header | GET |
+| /api/grade/?xnm=2015&xqm=3 | 信息门户登录header | GET |
 
 <hr/>
 
