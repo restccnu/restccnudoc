@@ -1,3 +1,5 @@
+> (安卓和IOSbanner统一为/api/ios/banner/)
+
 # Banner获取API
 
 > 获取banner

@@ -1,4 +1,4 @@
-# Banner获取API (IOS版)
+# Banner获取API
 
 > 获取banner
 
@@ -20,10 +20,10 @@
 
     [
         {
-          "img": "http://muxistatic.com",  // 图片七牛外链
-          "url": "http://muxistudio.com"   // 图片指向链接
+          "img": "http://muxistatic.com",  // 图片外链
+          "url": "http://muxistudio.com",  // 图片指向链接
+          "num": "1",                      // Banner排序的数字戳(越小越先出现)
           'update': 时间戳                 // 图片更新时间戳
-          "num": "1"                       // Banner排序的数字, 越小越先出现
         },
         {....}
     ]
@@ -54,9 +54,9 @@
 ## POST Data(json)
 
     {
-        "img": 'banner上传到七牛后的文件名(若有后缀包括后缀)',
-        "url": 'banner指向的链接'
-        "num": "banner排序的数字, 越小越先出现(最小为1)"
+        'img': 'banner图片外链',
+        'url': 'banner指向的链接',
+        "num": 排序(越小越先出现, 最小为1)
     }
 
 ## Return Data(json)
@@ -70,7 +70,6 @@
     502 服务器端异常
 
 ## Notes
-文件名一定要写对, 否则api会提示文件名不存在
 
 <br/>
 
@@ -86,7 +85,7 @@
 
 ## URL Params
 
-    name: 待删除的banner七牛文件名
+    name: 待删除的banner图片外链
 
 ## POST Data(json)
 
@@ -122,7 +121,7 @@
 ## PUT Data(json)
 
     {
-        "img": "http://muxistatic.com",    // 待修改图片的七牛外链
+        "img": "http://muxistatic.com",    // 待修改banner外链
         "num": 1                           // 更新后的排序num
     }
 
@@ -137,4 +136,3 @@
     502 服务器端异常
 
 ## Notes
-
