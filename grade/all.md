@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/grade/search/?xnm=2015&xqm=3 | 信息门户登录header | GET |
+| /api/grade/?xnm=2015&xqm=3 | 信息门户登录header | GET |
 
 <hr/>
 
@@ -20,6 +20,7 @@
 
     xnm: xnm年-xxx年, 例如2015-2016学年那么xnm=2015
     xqm: 第一学期 xqm=3, 第二学期 xqm=12, 第三学期 xqm=16
+         xqm 为空表示查询该学年的所有成绩
 
 ## POST Data(json)
 
