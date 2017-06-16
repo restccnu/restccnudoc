@@ -28,7 +28,7 @@
             },
             {....}
         ],
-       "upate": "时间戳"
+       "update": "时间戳"
     }
 
 ## Status Code
