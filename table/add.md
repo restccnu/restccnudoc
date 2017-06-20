@@ -4,7 +4,7 @@
 
 | URL |  Header | Method |
 | ------------- |:-------------:| -----:|
-| /api/table/ | 信息门户登录header | GET |
+| /api/table/ | 信息门户登录header | POST |
 
 <hr/>
 
