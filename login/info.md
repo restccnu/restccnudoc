@@ -18,7 +18,11 @@
 
 ### Return Data(json)
 
-    {}
+    {
+        "JSSESIONID": "A04ED5EEA6C34A523611376AF52A04A9",
+        "BIGipServerpool_jwc_xk": "1028696256.20480.0000",
+        "sid": "2014210761"
+    }
 
 
 ### Status Code:
