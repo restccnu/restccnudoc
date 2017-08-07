@@ -18,16 +18,12 @@
 
 ### Return Data(json)
 
-    {
-        "JSSESIONID": "A04ED5EEA6C34A523611376AF52A04A9",
-        "BIGipServerpool_jwc_xk": "1028696256.20480.0000",
-        "sid": "2014210761"
-    }
-
+    无
 
 ### Status Code:
 
     200 OK
+    401 无验证信息
     403 禁止访问, 用户验证出错
     502 服务器端错误
 
