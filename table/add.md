@@ -19,6 +19,7 @@
 
 ## POST Data(json)
 
+```
     {
         "course": "xxxx",  // 课程的名称
         "teacher": "xxxx",  // 老师的名称
@@ -29,14 +30,21 @@
         "place": "9-21", // 上课地点
         "remind": false // 是否提醒
     }
+```
 
 ## Return Data(json)
 
-    {"id": id} // 自定义课程存储ID
+```
+    {
+        "id": id   // 自定义课程存储ID
+    }
+```
 
 ## Status Code
 
+```
     201: 创建成功
     401: 无学号Header
     5XX: 服务端异常
+```
 ## Notes
