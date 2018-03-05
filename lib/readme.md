@@ -1,3 +1,3 @@
 # 图书馆API
 
-**学校图书馆现在处于崩溃状态...**
+最新图书馆API文档 -> https://github.com/asynccnu/async_lib_service/blob/master/apidoc/api.md
