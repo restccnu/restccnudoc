@@ -13,8 +13,8 @@
 {
 	 "msg" : string   //  简略信息
 	 "detail" : string  // 详细信息 
-	 "version" : string    // 版本信息
-	 "type" : string    // 信息类型 
+	 "version" : string    // 安卓版本信息 如 "2.2.1"， 若版本号不同不会显示
+	 "type" : string    // 信息类型 
 	 "time" : string  // 2018-02-24   更新时间 
 }
 ``` 
