@@ -40,8 +40,11 @@
 | /api/msg/ | None | GET | 
 
 **URL Params: None** 
+
 **POST Data: None** 
+
 **RETURN Data:** 
+
 ```
 {
      "msg" : string   //  简略信息
